@@ -1,0 +1,10 @@
+{
+  "name": "crdg-rss",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build:rss": "node scripts/build_rss.js"
+  },
+  "dependencies": {}
+}
