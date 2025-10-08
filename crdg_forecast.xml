@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>CRDG Weather Service Forecast</title>
+    <link>https://devX6Thello.github.io/</link>
+    <description>Automated simulated CRDG forecast feed (NWS bulletin style).</description>
+    <language>en-us</language>
+    <generator>CRDG Automated Forecast Unit</generator>
+    <ttl>5</ttl>
+    <item>
+    <title>Forecast Update – Overcast – 4:41:24 PM</title>
+    <link>https://devX6Thello.github.io/</link>
+    <description><![CDATA[NOW YOUR 7-DAY FORECAST...
+Wednesday: Clear. High near 85°F, Low around 64°F. Pressure 29.69 inHg (Falling).
+Thursday: Clear. High near 83°F, Low around 62°F. Pressure 30.08 inHg (Rising).
+Friday: Clear. High near 83°F, Low around 60°F. Pressure 30.13 inHg (Rising).
+Saturday: Clear. High near 85°F, Low around 59°F. Pressure 30.11 inHg (Rising).
+Sunday: Clear. High near 84°F, Low around 63°F. Pressure 30.28 inHg (Rising rapidly).
+Monday: Clear. High near 85°F, Low around 61°F. Pressure 30.09 inHg (Rising).
+Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 29.53 inHg (Falling).
+
+STORM TIMES...
+Next storm: 8:57:17 PM – 9:15:54 PM PST.
+
+BLIMP OPERATION TIMES...
+Morning window: 04:10–05:50
+Evening window: 16:10–17:50
+Status: WITHIN WINDOW
+Time to next boundary: 01:08:36.
+
+OBSERVATIONS FROM AROUND THE AREA:
+(no observations reported)
+
+Barometer: 29.69 inHg (Falling)
+
+Report generated at 10/8/2025, 4:41:24 PM (PST/PDT).]]></description>
+    <category>Weather Forecast</category>
+    <pubDate>Wed, 08 Oct 2025 23:41:24 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1759966884792</guid>
+  </item>
+  </channel>
+</rss>
