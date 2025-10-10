@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 11:50:33 PM</title>
+    <title>Forecast Update – Clear – 12:10:48 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Thursday: Clear. High near 83°F, Low around 62°F. Pressure 30.13 inHg (Rising).
-Friday: Clear. High near 83°F, Low around 60°F. Pressure 30.32 inHg (Rising rapidly).
-Saturday: Clear. High near 85°F, Low around 59°F. Pressure 30.21 inHg (Rising rapidly).
-Sunday: Clear. High near 84°F, Low around 63°F. Pressure 30.32 inHg (Rising rapidly).
-Monday: Clear. High near 85°F, Low around 61°F. Pressure 29.53 inHg (Falling).
-Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 30.08 inHg (Rising).
-Wednesday: Clear. High near 85°F, Low around 60°F. Pressure 30.08 inHg (Rising).
+Friday: Clear. High near 83°F, Low around 60°F. Pressure 30.13 inHg (Rising).
+Saturday: Clear. High near 85°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
+Sunday: Clear. High near 84°F, Low around 63°F. Pressure 30.3 inHg (Rising rapidly).
+Monday: Clear. High near 85°F, Low around 61°F. Pressure 30.32 inHg (Rising rapidly).
+Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 29.19 inHg (Falling rapidly).
+Wednesday: Clear. High near 85°F, Low around 60°F. Pressure 29.73 inHg (Falling).
+Thursday: Clear. High near 85°F, Low around 62°F. Pressure 30.08 inHg (Rising).
 
 STORM TIMES...
 No significant storms expected within 48 hours.
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 04:19:27.
+Time to next boundary: 03:59:13.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
 Barometer: 30.13 inHg (Rising)
 
-Report generated at 10/9/2025, 11:50:33 PM (PST/PDT).]]></description>
+Report generated at 10/10/2025, 12:10:48 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Fri, 10 Oct 2025 06:50:33 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1760079033980</guid>
+    <pubDate>Fri, 10 Oct 2025 07:10:48 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1760080248109</guid>
   </item>
   </channel>
 </rss>
