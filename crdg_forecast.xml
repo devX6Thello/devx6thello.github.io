@@ -8,15 +8,15 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 1:53:27 AM</title>
+    <title>Forecast Update – Clear – 2:19:17 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Thursday: Clear. High near 85°F, Low around 62°F. Pressure 30.08 inHg (Rising).
-Friday: Clear. High near 83°F, Low around 60°F. Pressure 30.09 inHg (Rising).
-Saturday: Clear. High near 85°F, Low around 61°F. Pressure 29.66 inHg (Falling).
+Thursday: Clear. High near 85°F, Low around 62°F. Pressure 30.09 inHg (Rising).
+Friday: Clear. High near 83°F, Low around 60°F. Pressure 30.12 inHg (Rising).
+Saturday: Clear. High near 85°F, Low around 61°F. Pressure 29.53 inHg (Falling).
 Sunday: Clear. High near 85°F, Low around 58°F. Pressure 30.32 inHg (Rising rapidly).
-Monday: Clear. High near 83°F, Low around 62°F. Pressure 30.21 inHg (Rising rapidly).
-Tuesday: Clear. High near 82°F, Low around 59°F. Pressure 30.19 inHg (Rising).
+Monday: Clear. High near 83°F, Low around 62°F. Pressure 29.89 inHg (Steady).
+Tuesday: Clear. High near 82°F, Low around 59°F. Pressure 30.15 inHg (Rising).
 Wednesday: Clear. High near 84°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
 
 STORM TIMES...
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 02:16:34.
+Time to next boundary: 01:50:43.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 30.08 inHg (Rising)
+Barometer: 30.09 inHg (Rising)
 
-Report generated at 10/16/2025, 1:53:27 AM (PST/PDT).]]></description>
+Report generated at 10/16/2025, 2:19:17 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Thu, 16 Oct 2025 08:53:27 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1760604807099</guid>
+    <pubDate>Thu, 16 Oct 2025 09:19:17 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1760606357589</guid>
   </item>
   </channel>
 </rss>
