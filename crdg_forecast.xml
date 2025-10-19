@@ -8,35 +8,35 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Overcast – 8:16:29 AM</title>
+    <title>Forecast Update – Cloudy – 8:30:42 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Sunday: Clear. High near 85°F, Low around 58°F. Pressure 29.7 inHg (Falling).
-Monday: Clear. High near 83°F, Low around 62°F. Pressure 30.08 inHg (Rising).
+Sunday: Clear. High near 85°F, Low around 58°F. Pressure 29.91 inHg (Steady).
+Monday: Clear. High near 83°F, Low around 62°F. Pressure 30.11 inHg (Rising).
 Tuesday: Clear. High near 82°F, Low around 59°F. Pressure 29.53 inHg (Falling).
-Wednesday: Clear. High near 84°F, Low around 59°F. Pressure 30.03 inHg (Rising).
+Wednesday: Clear. High near 84°F, Low around 59°F. Pressure 29.83 inHg (Steady).
 Thursday: Clear. High near 85°F, Low around 62°F. Pressure 30.13 inHg (Rising).
 Friday: Clear. High near 82°F, Low around 62°F. Pressure 30.08 inHg (Rising).
-Saturday: Clear. High near 85°F, Low around 61°F. Pressure 30.14 inHg (Rising).
+Saturday: Clear. High near 85°F, Low around 61°F. Pressure 30.18 inHg (Rising).
 
 STORM TIMES...
-Next storm: 5:10:37 AM – 5:12:42 AM PST.
+Next storm: 5:10:38 AM – 5:12:43 AM PST.
 
 BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 07:53:31.
+Time to next boundary: 07:39:19.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 29.7 inHg (Falling)
+Barometer: 29.91 inHg (Steady)
 
-Report generated at 10/19/2025, 8:16:29 AM (PST/PDT).]]></description>
+Report generated at 10/19/2025, 8:30:42 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Sun, 19 Oct 2025 15:16:29 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1760886989739</guid>
+    <pubDate>Sun, 19 Oct 2025 15:30:42 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1760887842311</guid>
   </item>
   </channel>
 </rss>
