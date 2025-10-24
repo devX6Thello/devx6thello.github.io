@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Overcast – 11:57:46 PM</title>
+    <title>Forecast Update – Overcast – 12:25:04 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Thursday: Clear. High near 85°F, Low around 62°F. Pressure 29.44 inHg (Falling rapidly).
-Friday: Clear. High near 82°F, Low around 62°F. Pressure 30.09 inHg (Rising).
-Saturday: Clear. High near 85°F, Low around 61°F. Pressure 30.08 inHg (Rising).
-Sunday: Clear. High near 86°F, Low around 62°F. Pressure 30.13 inHg (Rising).
-Monday: Clear. High near 85°F, Low around 64°F. Pressure 30.32 inHg (Rising rapidly).
-Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 30.07 inHg (Rising).
-Wednesday: Clear. High near 85°F, Low around 62°F. Pressure 29.7 inHg (Falling).
+Friday: Clear. High near 82°F, Low around 62°F. Pressure 29.71 inHg (Falling).
+Saturday: Clear. High near 85°F, Low around 61°F. Pressure 30.11 inHg (Rising).
+Sunday: Clear. High near 86°F, Low around 62°F. Pressure 30.08 inHg (Rising).
+Monday: Clear. High near 85°F, Low around 64°F. Pressure 30.13 inHg (Rising).
+Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 30.32 inHg (Rising rapidly).
+Wednesday: Clear. High near 85°F, Low around 62°F. Pressure 29.83 inHg (Steady).
+Thursday: Clear. High near 83°F, Low around 59°F. Pressure 29.53 inHg (Falling).
 
 STORM TIMES...
 No significant storms expected within 48 hours.
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 04:12:15.
+Time to next boundary: 03:44:57.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 29.44 inHg (Falling rapidly)
+Barometer: 29.71 inHg (Falling)
 
-Report generated at 10/23/2025, 11:57:46 PM (PST/PDT).]]></description>
+Report generated at 10/24/2025, 12:25:04 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Fri, 24 Oct 2025 06:57:46 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1761289066134</guid>
+    <pubDate>Fri, 24 Oct 2025 07:25:04 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1761290704071</guid>
   </item>
   </channel>
 </rss>
