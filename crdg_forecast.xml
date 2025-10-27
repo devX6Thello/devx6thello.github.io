@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 7:49:33 AM</title>
+    <title>Forecast Update – Clear – 7:59:55 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Monday: Clear. High near 85°F, Low around 64°F. Pressure 30.18 inHg (Rising).
-Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 30.19 inHg (Rising).
+Monday: Clear. High near 85°F, Low around 64°F. Pressure 30.24 inHg (Rising rapidly).
+Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 30.15 inHg (Rising).
 Wednesday: Clear. High near 85°F, Low around 62°F. Pressure 30.08 inHg (Rising).
-Thursday: Clear. High near 83°F, Low around 59°F. Pressure 30.06 inHg (Rising).
+Thursday: Clear. High near 83°F, Low around 59°F. Pressure 29.91 inHg (Steady).
 Friday: Clear. High near 83°F, Low around 59°F. Pressure 29.53 inHg (Falling).
 Saturday: Clear. High near 82°F, Low around 63°F. Pressure 30.08 inHg (Rising).
-Sunday: Clear. High near 85°F, Low around 62°F. Pressure 30.19 inHg (Rising).
+Sunday: Clear. High near 85°F, Low around 62°F. Pressure 30.28 inHg (Rising rapidly).
 
 STORM TIMES...
 Next storm: 12:41:45 PM – 1:03:14 PM PST.
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 08:20:27.
+Time to next boundary: 08:10:05.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 30.18 inHg (Rising)
+Barometer: 30.24 inHg (Rising rapidly)
 
-Report generated at 10/27/2025, 7:49:33 AM (PST/PDT).]]></description>
+Report generated at 10/27/2025, 7:59:55 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Mon, 27 Oct 2025 14:49:33 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1761576573180</guid>
+    <pubDate>Mon, 27 Oct 2025 14:59:55 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1761577195993</guid>
   </item>
   </channel>
 </rss>
