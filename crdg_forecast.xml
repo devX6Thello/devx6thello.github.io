@@ -8,14 +8,14 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 1:56:03 AM</title>
+    <title>Forecast Update – Clear – 2:26:15 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Friday: Clear. High near 83°F, Low around 59°F. Pressure 30.12 inHg (Rising).
-Saturday: Clear. High near 82°F, Low around 63°F. Pressure 30.05 inHg (Rising).
-Sunday: Clear. High near 85°F, Low around 62°F. Pressure 29.56 inHg (Falling).
-Monday: Clear. High near 85°F, Low around 63°F. Pressure 29.61 inHg (Falling).
-Tuesday: Clear. High near 84°F, Low around 61°F. Pressure 29.91 inHg (Steady).
+Friday: Clear. High near 83°F, Low around 59°F. Pressure 30.29 inHg (Rising rapidly).
+Saturday: Clear. High near 82°F, Low around 63°F. Pressure 29.53 inHg (Falling).
+Sunday: Clear. High near 85°F, Low around 62°F. Pressure 29.55 inHg (Falling).
+Monday: Clear. High near 85°F, Low around 63°F. Pressure 29.84 inHg (Steady).
+Tuesday: Clear. High near 84°F, Low around 61°F. Pressure 29.67 inHg (Falling).
 Wednesday: Clear. High near 85°F, Low around 59°F. Pressure 29.53 inHg (Falling).
 Thursday: Clear. High near 84°F, Low around 59°F. Pressure 30.08 inHg (Rising).
 
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 02:13:57.
+Time to next boundary: 01:43:46.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 30.12 inHg (Rising)
+Barometer: 30.29 inHg (Rising rapidly)
 
-Report generated at 10/31/2025, 1:56:03 AM (PST/PDT).]]></description>
+Report generated at 10/31/2025, 2:26:15 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Fri, 31 Oct 2025 08:56:03 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1761900963876</guid>
+    <pubDate>Fri, 31 Oct 2025 09:26:15 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1761902775987</guid>
   </item>
   </channel>
 </rss>
