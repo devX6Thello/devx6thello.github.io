@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 12:50:42 AM</title>
+    <title>Forecast Update – Clear – 1:15:02 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
 Friday: Clear. High near 83°F, Low around 59°F. Pressure 30.08 inHg (Rising).
-Saturday: Clear. High near 82°F, Low around 63°F. Pressure 30.3 inHg (Rising rapidly).
-Sunday: Clear. High near 85°F, Low around 62°F. Pressure 30.32 inHg (Rising rapidly).
-Monday: Clear. High near 85°F, Low around 63°F. Pressure 29.42 inHg (Falling rapidly).
+Saturday: Clear. High near 82°F, Low around 63°F. Pressure 30.32 inHg (Rising rapidly).
+Sunday: Clear. High near 85°F, Low around 62°F. Pressure 30.26 inHg (Rising rapidly).
+Monday: Clear. High near 85°F, Low around 63°F. Pressure 29.11 inHg (Falling rapidly).
 Tuesday: Clear. High near 84°F, Low around 61°F. Pressure 30.13 inHg (Rising).
 Wednesday: Clear. High near 85°F, Low around 59°F. Pressure 29.53 inHg (Falling).
-Thursday: Clear. High near 84°F, Low around 59°F. Pressure 29.54 inHg (Falling).
+Thursday: Clear. High near 84°F, Low around 59°F. Pressure 29.69 inHg (Falling).
 
 STORM TIMES...
 No significant storms expected within 48 hours.
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 03:19:18.
+Time to next boundary: 02:54:58.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
 Barometer: 30.08 inHg (Rising)
 
-Report generated at 10/31/2025, 12:50:42 AM (PST/PDT).]]></description>
+Report generated at 10/31/2025, 1:15:02 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Fri, 31 Oct 2025 07:50:42 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1761897042483</guid>
+    <pubDate>Fri, 31 Oct 2025 08:15:02 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1761898502402</guid>
   </item>
   </channel>
 </rss>
