@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 1:28:20 PM</title>
+    <title>Forecast Update – Clear – 1:41:40 PM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
 Monday: Clear. High near 84°F, Low around 63°F. Pressure 30.32 inHg (Rising rapidly).
-Tuesday: Clear. High near 83°F, Low around 62°F. Pressure 29.91 inHg (Steady).
-Wednesday: Overcast. High near 85°F, Low around 60°F. Pressure 30.14 inHg (Rising).
-Thursday: Clear. High near 85°F, Low around 59°F. Pressure 30.13 inHg (Rising).
-Friday: Clear. High near 85°F, Low around 62°F. Pressure 29.62 inHg (Falling).
+Tuesday: Clear. High near 83°F, Low around 62°F. Pressure 29.69 inHg (Falling).
+Wednesday: Overcast. High near 85°F, Low around 60°F. Pressure 30.09 inHg (Rising).
+Thursday: Clear. High near 85°F, Low around 59°F. Pressure 30.12 inHg (Rising).
+Friday: Clear. High near 85°F, Low around 62°F. Pressure 29.9 inHg (Steady).
 Saturday: Clear. High near 85°F, Low around 64°F. Pressure 30.13 inHg (Rising).
-Sunday: Clear. High near 82°F, Low around 62°F. Pressure 30.31 inHg (Rising rapidly).
+Sunday: Clear. High near 82°F, Low around 62°F. Pressure 30.32 inHg (Rising rapidly).
 
 STORM TIMES...
 Next storm: 10:43:57 PM – 10:46:02 PM PST.
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 02:41:40.
+Time to next boundary: 02:28:20.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
 Barometer: 30.32 inHg (Rising rapidly)
 
-Report generated at 11/3/2025, 1:28:20 PM (PST/PDT).]]></description>
+Report generated at 11/3/2025, 1:41:40 PM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Mon, 03 Nov 2025 21:28:20 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1762205300648</guid>
+    <pubDate>Mon, 03 Nov 2025 21:41:40 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1762206100451</guid>
   </item>
   </channel>
 </rss>
