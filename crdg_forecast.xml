@@ -8,14 +8,14 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 11:46:52 AM</title>
+    <title>Forecast Update – Clear – 11:57:57 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Friday: Clear. High near 85°F, Low around 62°F. Pressure 30.32 inHg (Rising rapidly).
-Saturday: Clear. High near 85°F, Low around 64°F. Pressure 30.09 inHg (Rising).
-Sunday: Clear. High near 82°F, Low around 62°F. Pressure 29.65 inHg (Falling).
-Monday: Clear. High near 83°F, Low around 62°F. Pressure 29.54 inHg (Falling).
-Tuesday: Clear. High near 85°F, Low around 60°F. Pressure 30.09 inHg (Rising).
+Friday: Clear. High near 85°F, Low around 62°F. Pressure 30.3 inHg (Rising rapidly).
+Saturday: Clear. High near 85°F, Low around 64°F. Pressure 30.1 inHg (Rising).
+Sunday: Clear. High near 82°F, Low around 62°F. Pressure 29.58 inHg (Falling).
+Monday: Clear. High near 83°F, Low around 62°F. Pressure 29.53 inHg (Falling).
+Tuesday: Clear. High near 85°F, Low around 60°F. Pressure 30.13 inHg (Rising).
 Wednesday: Clear. High near 83°F, Low around 63°F. Pressure 30.32 inHg (Rising rapidly).
 Thursday: Clear. High near 84°F, Low around 61°F. Pressure 30.13 inHg (Rising).
 
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 04:23:08.
+Time to next boundary: 04:12:03.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 30.32 inHg (Rising rapidly)
+Barometer: 30.3 inHg (Rising rapidly)
 
-Report generated at 11/7/2025, 11:46:52 AM (PST/PDT).]]></description>
+Report generated at 11/7/2025, 11:57:57 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Fri, 07 Nov 2025 19:46:52 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1762544812560</guid>
+    <pubDate>Fri, 07 Nov 2025 19:57:57 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1762545477914</guid>
   </item>
   </channel>
 </rss>
