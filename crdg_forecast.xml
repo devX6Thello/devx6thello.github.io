@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 1:38:26 AM</title>
+    <title>Forecast Update – Clear – 1:51:03 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Friday: Clear. High near 85°F, Low around 64°F. Pressure 30.14 inHg (Rising).
+Friday: Clear. High near 85°F, Low around 64°F. Pressure 30.09 inHg (Rising).
 Saturday: Clear. High near 85°F, Low around 60°F. Pressure 29.53 inHg (Falling).
 Sunday: Clear. High near 84°F, Low around 59°F. Pressure 30.08 inHg (Rising).
-Monday: Clear. High near 82°F, Low around 57°F. Pressure 30.03 inHg (Rising).
-Tuesday: Clear. High near 83°F, Low around 64°F. Pressure 30.14 inHg (Rising).
-Wednesday: Clear. High near 80°F, Low around 60°F. Pressure 30.05 inHg (Rising).
-Thursday: Overcast. High near 83°F, Low around 61°F. Pressure 29.9 inHg (Steady).
+Monday: Clear. High near 82°F, Low around 57°F. Pressure 29.97 inHg (Steady).
+Tuesday: Clear. High near 83°F, Low around 64°F. Pressure 30.13 inHg (Rising).
+Wednesday: Clear. High near 80°F, Low around 60°F. Pressure 29.92 inHg (Steady).
+Thursday: Overcast. High near 83°F, Low around 61°F. Pressure 29.7 inHg (Falling).
 
 STORM TIMES...
 No significant storms expected within 48 hours.
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 02:31:34.
+Time to next boundary: 02:18:57.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 30.14 inHg (Rising)
+Barometer: 30.09 inHg (Rising)
 
-Report generated at 11/14/2025, 1:38:26 AM (PST/PDT).]]></description>
+Report generated at 11/14/2025, 1:51:03 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Fri, 14 Nov 2025 09:38:26 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1763113106630</guid>
+    <pubDate>Fri, 14 Nov 2025 09:51:03 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1763113863481</guid>
   </item>
   </channel>
 </rss>
