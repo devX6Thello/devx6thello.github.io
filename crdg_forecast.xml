@@ -8,15 +8,15 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 3:42:43 PM</title>
+    <title>Forecast Update – Clear – 3:54:14 PM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Wednesday: Clear. High near 80°F, Low around 60°F. Pressure 30.16 inHg (Rising).
+Wednesday: Clear. High near 80°F, Low around 60°F. Pressure 30.19 inHg (Rising).
 Thursday: Overcast. High near 83°F, Low around 61°F. Pressure 30.32 inHg (Rising rapidly).
-Friday: Clear. High near 84°F, Low around 60°F. Pressure 30.11 inHg (Rising).
-Saturday: Clear. High near 84°F, Low around 60°F. Pressure 30.08 inHg (Rising).
-Sunday: Clear. High near 83°F, Low around 60°F. Pressure 30.19 inHg (Rising).
-Monday: Clear. High near 85°F, Low around 59°F. Pressure 29.63 inHg (Falling).
+Friday: Clear. High near 84°F, Low around 60°F. Pressure 30.13 inHg (Rising).
+Saturday: Clear. High near 84°F, Low around 60°F. Pressure 30.1 inHg (Rising).
+Sunday: Clear. High near 83°F, Low around 60°F. Pressure 30.25 inHg (Rising rapidly).
+Monday: Clear. High near 85°F, Low around 59°F. Pressure 29.56 inHg (Falling).
 Tuesday: Clear. High near 84°F, Low around 60°F. Pressure 30.13 inHg (Rising).
 
 STORM TIMES...
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 00:27:17.
+Time to next boundary: 00:15:46.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 30.16 inHg (Rising)
+Barometer: 30.19 inHg (Rising)
 
-Report generated at 11/19/2025, 3:42:43 PM (PST/PDT).]]></description>
+Report generated at 11/19/2025, 3:54:14 PM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Wed, 19 Nov 2025 23:42:43 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1763595763404</guid>
+    <pubDate>Wed, 19 Nov 2025 23:54:14 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1763596454801</guid>
   </item>
   </channel>
 </rss>
