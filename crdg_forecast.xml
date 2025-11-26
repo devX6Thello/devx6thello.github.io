@@ -8,15 +8,15 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 12:54:29 AM</title>
+    <title>Forecast Update – Clear – 1:23:44 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
 Wednesday: Clear. High near 85°F, Low around 62°F. Pressure 30.13 inHg (Rising).
-Thursday: Clear. High near 86°F, Low around 59°F. Pressure 30.31 inHg (Rising rapidly).
-Friday: Clear. High near 85°F, Low around 61°F. Pressure 30.21 inHg (Rising rapidly).
-Saturday: Clear. High near 85°F, Low around 63°F. Pressure 30.3 inHg (Rising rapidly).
-Sunday: Clear. High near 83°F, Low around 60°F. Pressure 29.72 inHg (Falling).
-Monday: Clear. High near 87°F, Low around 62°F. Pressure 30.08 inHg (Rising).
+Thursday: Clear. High near 86°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
+Friday: Clear. High near 85°F, Low around 61°F. Pressure 29.86 inHg (Steady).
+Saturday: Clear. High near 85°F, Low around 63°F. Pressure 30.34 inHg (Rising rapidly).
+Sunday: Clear. High near 83°F, Low around 60°F. Pressure 29.53 inHg (Falling).
+Monday: Clear. High near 87°F, Low around 62°F. Pressure 30.09 inHg (Rising).
 Tuesday: Clear. High near 85°F, Low around 59°F. Pressure 30.13 inHg (Rising).
 
 STORM TIMES...
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 03:15:32.
+Time to next boundary: 02:46:16.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
 Barometer: 30.13 inHg (Rising)
 
-Report generated at 11/26/2025, 12:54:29 AM (PST/PDT).]]></description>
+Report generated at 11/26/2025, 1:23:44 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Wed, 26 Nov 2025 08:54:29 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1764147269751</guid>
+    <pubDate>Wed, 26 Nov 2025 09:23:44 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1764149024125</guid>
   </item>
   </channel>
 </rss>
