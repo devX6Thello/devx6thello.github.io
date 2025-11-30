@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Overcast – 9:55:30 PM</title>
+    <title>Forecast Update – Overcast – 10:34:22 PM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
 Saturday: Clear. High near 85°F, Low around 63°F. Pressure 29.53 inHg (Falling).
-Sunday: Clear. High near 83°F, Low around 60°F. Pressure 30.08 inHg (Rising).
-Monday: Clear. High near 87°F, Low around 62°F. Pressure 30.18 inHg (Rising).
-Tuesday: Clear. High near 85°F, Low around 59°F. Pressure 30.12 inHg (Rising).
-Wednesday: Clear. High near 83°F, Low around 64°F. Pressure 29.52 inHg (Falling).
-Thursday: Clear. High near 83°F, Low around 63°F. Pressure 29.53 inHg (Falling).
-Friday: Clear. High near 83°F, Low around 59°F. Pressure 30.07 inHg (Rising).
+Sunday: Clear. High near 83°F, Low around 60°F. Pressure 30.09 inHg (Rising).
+Monday: Clear. High near 87°F, Low around 62°F. Pressure 30.32 inHg (Rising rapidly).
+Tuesday: Clear. High near 85°F, Low around 59°F. Pressure 30.09 inHg (Rising).
+Wednesday: Clear. High near 83°F, Low around 64°F. Pressure 29.53 inHg (Falling).
+Thursday: Clear. High near 83°F, Low around 63°F. Pressure 29.84 inHg (Steady).
+Friday: Clear. High near 83°F, Low around 59°F. Pressure 29.62 inHg (Falling).
 
 STORM TIMES...
 No significant storms expected within 48 hours.
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 06:14:30.
+Time to next boundary: 05:35:39.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
 Barometer: 29.53 inHg (Falling)
 
-Report generated at 11/29/2025, 9:55:30 PM (PST/PDT).]]></description>
+Report generated at 11/29/2025, 10:34:22 PM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Sun, 30 Nov 2025 05:55:30 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1764482130775</guid>
+    <pubDate>Sun, 30 Nov 2025 06:34:22 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1764484462211</guid>
   </item>
   </channel>
 </rss>
