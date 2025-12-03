@@ -8,15 +8,15 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Overcast – 12:50:57 PM</title>
+    <title>Forecast Update – Overcast – 1:11:58 PM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Wednesday: Clear. High near 83°F, Low around 64°F. Pressure 29.53 inHg (Falling).
+Wednesday: Clear. High near 83°F, Low around 64°F. Pressure 29.63 inHg (Falling).
 Thursday: Clear. High near 83°F, Low around 63°F. Pressure 30.13 inHg (Rising).
-Friday: Clear. High near 83°F, Low around 59°F. Pressure 29.73 inHg (Falling).
-Saturday: Clear. High near 82°F, Low around 60°F. Pressure 30.32 inHg (Rising rapidly).
-Sunday: Clear. High near 84°F, Low around 58°F. Pressure 30.35 inHg (Rising rapidly).
-Monday: Clear. High near 84°F, Low around 59°F. Pressure 30.12 inHg (Rising).
+Friday: Clear. High near 83°F, Low around 59°F. Pressure 29.53 inHg (Falling).
+Saturday: Clear. High near 82°F, Low around 60°F. Pressure 30.31 inHg (Rising rapidly).
+Sunday: Clear. High near 84°F, Low around 58°F. Pressure 30.44 inHg (Rising rapidly).
+Monday: Clear. High near 84°F, Low around 59°F. Pressure 29.63 inHg (Falling).
 Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 29.53 inHg (Falling).
 
 STORM TIMES...
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 03:19:03.
+Time to next boundary: 02:58:02.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 29.53 inHg (Falling)
+Barometer: 29.63 inHg (Falling)
 
-Report generated at 12/3/2025, 12:50:57 PM (PST/PDT).]]></description>
+Report generated at 12/3/2025, 1:11:58 PM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Wed, 03 Dec 2025 20:50:57 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1764795057675</guid>
+    <pubDate>Wed, 03 Dec 2025 21:11:58 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1764796318656</guid>
   </item>
   </channel>
 </rss>
