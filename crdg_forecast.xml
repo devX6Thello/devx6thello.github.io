@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Overcast – 8:42:18 PM</title>
+    <title>Forecast Update – Overcast – 8:57:05 PM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Saturday: Clear. High near 82°F, Low around 60°F. Pressure 29.66 inHg (Falling).
-Sunday: Clear. High near 84°F, Low around 58°F. Pressure 30.09 inHg (Rising).
-Monday: Clear. High near 84°F, Low around 59°F. Pressure 29.54 inHg (Falling).
+Saturday: Clear. High near 82°F, Low around 60°F. Pressure 29.56 inHg (Falling).
+Sunday: Clear. High near 84°F, Low around 58°F. Pressure 30.08 inHg (Rising).
+Monday: Clear. High near 84°F, Low around 59°F. Pressure 29.61 inHg (Falling).
 Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 30.13 inHg (Rising).
 Wednesday: Clear. High near 84°F, Low around 61°F. Pressure 30.13 inHg (Rising).
 Thursday: Clear. High near 85°F, Low around 63°F. Pressure 30.32 inHg (Rising rapidly).
-Friday: Clear. High near 84°F, Low around 60°F. Pressure 30.11 inHg (Rising).
+Friday: Clear. High near 84°F, Low around 60°F. Pressure 29.86 inHg (Steady).
 
 STORM TIMES...
 Next storm: 1:10:37 AM – 1:29:14 AM PST.
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 07:27:42.
+Time to next boundary: 07:12:55.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 29.66 inHg (Falling)
+Barometer: 29.56 inHg (Falling)
 
-Report generated at 12/6/2025, 8:42:18 PM (PST/PDT).]]></description>
+Report generated at 12/6/2025, 8:57:05 PM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Sun, 07 Dec 2025 04:42:18 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1765082538321</guid>
+    <pubDate>Sun, 07 Dec 2025 04:57:05 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1765083425585</guid>
   </item>
   </channel>
 </rss>
