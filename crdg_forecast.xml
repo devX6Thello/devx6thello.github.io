@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 3:54:18 PM</title>
+    <title>Forecast Update – Cloudy – 5:49:01 PM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Saturday: Clear. High near 87°F, Low around 60°F. Pressure 30.32 inHg (Rising rapidly).
-Sunday: Clear. High near 84°F, Low around 63°F. Pressure 30.24 inHg (Rising rapidly).
-Monday: Clear. High near 83°F, Low around 60°F. Pressure 30.09 inHg (Rising).
-Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 30.32 inHg (Rising rapidly).
-Wednesday: Clear. High near 83°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
-Thursday: Clear. High near 85°F, Low around 60°F. Pressure 30.33 inHg (Rising rapidly).
-Friday: Clear. High near 84°F, Low around 60°F. Pressure 30.06 inHg (Rising).
+Saturday: Clear. High near 87°F, Low around 60°F. Pressure 29.84 inHg (Steady).
+Sunday: Clear. High near 84°F, Low around 63°F. Pressure 29.53 inHg (Falling).
+Monday: Clear. High near 83°F, Low around 60°F. Pressure 30.08 inHg (Rising).
+Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 30.33 inHg (Rising rapidly).
+Wednesday: Clear. High near 83°F, Low around 59°F. Pressure 30.1 inHg (Rising).
+Thursday: Clear. High near 85°F, Low around 60°F. Pressure 29.52 inHg (Falling).
+Friday: Clear. High near 84°F, Low around 60°F. Pressure 29.55 inHg (Falling).
 
 STORM TIMES...
 No significant storms expected within 48 hours.
@@ -25,18 +25,18 @@ No significant storms expected within 48 hours.
 BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
-Status: OUT OF WINDOW
-Time to next boundary: 00:15:43.
+Status: WITHIN WINDOW
+Time to next boundary: 00:00:59.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 30.32 inHg (Rising rapidly)
+Barometer: 29.84 inHg (Steady)
 
-Report generated at 12/13/2025, 3:54:18 PM (PST/PDT).]]></description>
+Report generated at 12/13/2025, 5:49:01 PM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Sat, 13 Dec 2025 23:54:18 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1765670058087</guid>
+    <pubDate>Sun, 14 Dec 2025 01:49:01 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1765676941962</guid>
   </item>
   </channel>
 </rss>
