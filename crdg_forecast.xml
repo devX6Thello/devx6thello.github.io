@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Cloudy – 6:11:50 AM</title>
+    <title>Forecast Update – Clear – 6:39:12 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Monday: Clear. High near 84°F, Low around 61°F. Pressure 30.03 inHg (Rising).
-Tuesday: Clear. High near 83°F, Low around 59°F. Pressure 30.13 inHg (Rising).
-Wednesday: Clear. High near 85°F, Low around 59°F. Pressure 30.07 inHg (Rising).
+Monday: Clear. High near 84°F, Low around 61°F. Pressure 30.08 inHg (Rising).
+Tuesday: Clear. High near 83°F, Low around 59°F. Pressure 30.15 inHg (Rising).
+Wednesday: Clear. High near 85°F, Low around 59°F. Pressure 29.72 inHg (Falling).
 Thursday: Clear. High near 83°F, Low around 63°F. Pressure 30.13 inHg (Rising).
 Friday: Clear. High near 85°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
 Saturday: Clear. High near 83°F, Low around 59°F. Pressure 29.52 inHg (Falling).
-Sunday: Clear. High near 85°F, Low around 61°F. Pressure 29.74 inHg (Falling).
+Sunday: Clear. High near 85°F, Low around 61°F. Pressure 30.36 inHg (Rising rapidly).
 
 STORM TIMES...
 No significant storms expected within 48 hours.
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 09:58:10.
+Time to next boundary: 09:30:48.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 30.03 inHg (Rising)
+Barometer: 30.08 inHg (Rising)
 
-Report generated at 12/22/2025, 6:11:50 AM (PST/PDT).]]></description>
+Report generated at 12/22/2025, 6:39:12 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Mon, 22 Dec 2025 14:11:50 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1766412710484</guid>
+    <pubDate>Mon, 22 Dec 2025 14:39:12 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1766414352978</guid>
   </item>
   </channel>
 </rss>
