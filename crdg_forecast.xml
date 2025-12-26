@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 5:47:19 AM</title>
+    <title>Forecast Update – Clear – 5:58:24 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
 Friday: Clear. High near 85°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
-Saturday: Clear. High near 83°F, Low around 59°F. Pressure 29.67 inHg (Falling).
-Sunday: Clear. High near 85°F, Low around 61°F. Pressure 29.53 inHg (Falling).
+Saturday: Clear. High near 83°F, Low around 59°F. Pressure 29.59 inHg (Falling).
+Sunday: Clear. High near 85°F, Low around 61°F. Pressure 29.56 inHg (Falling).
 Monday: Clear. High near 85°F, Low around 63°F. Pressure 30.08 inHg (Rising).
-Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 30.18 inHg (Rising).
+Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 30.28 inHg (Rising rapidly).
 Wednesday: Clear. High near 84°F, Low around 61°F. Pressure 30.32 inHg (Rising rapidly).
-Thursday: Clear. High near 85°F, Low around 58°F. Pressure 29.52 inHg (Falling).
+Thursday: Clear. High near 85°F, Low around 58°F. Pressure 29.46 inHg (Falling rapidly).
 
 STORM TIMES...
 Next storm: 4:55:05 PM – 5:16:34 PM PST.
@@ -25,18 +25,18 @@ Next storm: 4:55:05 PM – 5:16:34 PM PST.
 BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
-Status: WITHIN WINDOW
-Time to next boundary: 00:02:41.
+Status: OUT OF WINDOW
+Time to next boundary: 10:11:36.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
 Barometer: 30.32 inHg (Rising rapidly)
 
-Report generated at 12/26/2025, 5:47:19 AM (PST/PDT).]]></description>
+Report generated at 12/26/2025, 5:58:24 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Fri, 26 Dec 2025 13:47:19 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1766756839734</guid>
+    <pubDate>Fri, 26 Dec 2025 13:58:24 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1766757504562</guid>
   </item>
   </channel>
 </rss>
