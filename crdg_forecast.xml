@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 11:47:47 PM</title>
+    <title>Forecast Update – Clear – 11:58:55 PM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
 Thursday: Clear. High near 85°F, Low around 58°F. Pressure 30.32 inHg (Rising rapidly).
-Friday: Clear. High near 82°F, Low around 62°F. Pressure 30.17 inHg (Rising).
-Saturday: Clear. High near 84°F, Low around 59°F. Pressure 29.62 inHg (Falling).
+Friday: Clear. High near 82°F, Low around 62°F. Pressure 30.24 inHg (Rising rapidly).
+Saturday: Clear. High near 84°F, Low around 59°F. Pressure 29.56 inHg (Falling).
 Sunday: Clear. High near 83°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
-Monday: Clear. High near 85°F, Low around 63°F. Pressure 30.07 inHg (Rising).
-Tuesday: Clear. High near 83°F, Low around 61°F. Pressure 29.71 inHg (Falling).
-Wednesday: Clear. High near 85°F, Low around 61°F. Pressure 30.06 inHg (Rising).
+Monday: Clear. High near 85°F, Low around 63°F. Pressure 29.94 inHg (Steady).
+Tuesday: Clear. High near 83°F, Low around 61°F. Pressure 29.89 inHg (Steady).
+Wednesday: Clear. High near 85°F, Low around 61°F. Pressure 30.08 inHg (Rising).
 
 STORM TIMES...
 Next storm: 4:57:17 AM – 4:59:22 AM PST.
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 04:22:13.
+Time to next boundary: 04:11:05.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
 Barometer: 30.32 inHg (Rising rapidly)
 
-Report generated at 1/1/2026, 11:47:47 PM (PST/PDT).]]></description>
+Report generated at 1/1/2026, 11:58:55 PM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Fri, 02 Jan 2026 07:47:47 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1767340067238</guid>
+    <pubDate>Fri, 02 Jan 2026 07:58:55 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1767340735859</guid>
   </item>
   </channel>
 </rss>
