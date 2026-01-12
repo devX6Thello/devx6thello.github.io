@@ -8,15 +8,15 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Overcast – 3:43:21 AM</title>
+    <title>Forecast Update – Overcast – 3:54:56 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Monday: Clear. High near 83°F, Low around 60°F. Pressure 29.46 inHg (Falling rapidly).
+Monday: Clear. High near 83°F, Low around 60°F. Pressure 29.51 inHg (Falling).
 Tuesday: Clear. High near 82°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
-Wednesday: Clear. High near 82°F, Low around 63°F. Pressure 29.59 inHg (Falling).
-Thursday: Clear. High near 85°F, Low around 60°F. Pressure 29.89 inHg (Steady).
-Friday: Clear. High near 85°F, Low around 63°F. Pressure 29.55 inHg (Falling).
-Saturday: Clear. High near 85°F, Low around 59°F. Pressure 29.9 inHg (Steady).
+Wednesday: Clear. High near 82°F, Low around 63°F. Pressure 29.68 inHg (Falling).
+Thursday: Clear. High near 85°F, Low around 60°F. Pressure 30.07 inHg (Rising).
+Friday: Clear. High near 85°F, Low around 63°F. Pressure 29.53 inHg (Falling).
+Saturday: Clear. High near 85°F, Low around 59°F. Pressure 30.04 inHg (Rising).
 Sunday: Clear. High near 85°F, Low around 60°F. Pressure 29.53 inHg (Falling).
 
 STORM TIMES...
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 00:26:39.
+Time to next boundary: 00:15:04.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 29.46 inHg (Falling rapidly)
+Barometer: 29.51 inHg (Falling)
 
-Report generated at 1/12/2026, 3:43:21 AM (PST/PDT).]]></description>
+Report generated at 1/12/2026, 3:54:56 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Mon, 12 Jan 2026 11:43:21 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1768218201903</guid>
+    <pubDate>Mon, 12 Jan 2026 11:54:56 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1768218896782</guid>
   </item>
   </channel>
 </rss>
