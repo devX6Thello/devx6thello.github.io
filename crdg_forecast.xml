@@ -8,14 +8,14 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 1:49:59 AM</title>
+    <title>Forecast Update – Clear – 2:16:10 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Thursday: Clear. High near 83°F, Low around 61°F. Pressure 30.32 inHg (Rising rapidly).
-Friday: Clear. High near 83°F, Low around 63°F. Pressure 29.9 inHg (Steady).
-Saturday: Clear. High near 85°F, Low around 62°F. Pressure 30.12 inHg (Rising).
+Thursday: Clear. High near 83°F, Low around 61°F. Pressure 30.14 inHg (Rising).
+Friday: Clear. High near 83°F, Low around 63°F. Pressure 29.58 inHg (Falling).
+Saturday: Clear. High near 85°F, Low around 62°F. Pressure 30.13 inHg (Rising).
 Sunday: Clear. High near 82°F, Low around 62°F. Pressure 30.32 inHg (Rising rapidly).
-Monday: Clear. High near 83°F, Low around 60°F. Pressure 30.23 inHg (Rising rapidly).
+Monday: Clear. High near 82°F, Low around 60°F. Pressure 30 inHg (Rising).
 Tuesday: Clear. High near 84°F, Low around 63°F. Pressure 30.32 inHg (Rising rapidly).
 Wednesday: Clear. High near 84°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
 
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 02:20:02.
+Time to next boundary: 01:53:50.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 30.32 inHg (Rising rapidly)
+Barometer: 30.14 inHg (Rising)
 
-Report generated at 1/22/2026, 1:49:59 AM (PST/PDT).]]></description>
+Report generated at 1/22/2026, 2:16:10 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Thu, 22 Jan 2026 09:49:59 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1769075399086</guid>
+    <pubDate>Thu, 22 Jan 2026 10:16:10 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1769076970789</guid>
   </item>
   </channel>
 </rss>
