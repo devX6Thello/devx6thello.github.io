@@ -8,15 +8,15 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 6:57:19 AM</title>
+    <title>Forecast Update – Clear – 7:33:35 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Sunday: Clear. High near 83°F, Low around 62°F. Pressure 30.16 inHg (Rising).
-Monday: Clear. High near 82°F, Low around 60°F. Pressure 29.53 inHg (Falling).
-Tuesday: Clear. High near 85°F, Low around 61°F. Pressure 29.56 inHg (Falling).
-Wednesday: Clear. High near 85°F, Low around 61°F. Pressure 30.24 inHg (Rising rapidly).
-Thursday: Clear. High near 85°F, Low around 63°F. Pressure 30.16 inHg (Rising).
-Friday: Clear. High near 83°F, Low around 60°F. Pressure 30.13 inHg (Rising).
+Sunday: Clear. High near 83°F, Low around 62°F. Pressure 30.09 inHg (Rising).
+Monday: Clear. High near 82°F, Low around 60°F. Pressure 29.62 inHg (Falling).
+Tuesday: Clear. High near 85°F, Low around 61°F. Pressure 30.18 inHg (Rising).
+Wednesday: Clear. High near 85°F, Low around 61°F. Pressure 30.32 inHg (Rising rapidly).
+Thursday: Clear. High near 85°F, Low around 63°F. Pressure 30.13 inHg (Rising).
+Friday: Clear. High near 83°F, Low around 60°F. Pressure 30.11 inHg (Rising).
 Saturday: Clear. High near 83°F, Low around 60°F. Pressure 30.32 inHg (Rising rapidly).
 
 STORM TIMES...
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 09:12:41.
+Time to next boundary: 08:36:25.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 30.16 inHg (Rising)
+Barometer: 30.09 inHg (Rising)
 
-Report generated at 2/1/2026, 6:57:19 AM (PST/PDT).]]></description>
+Report generated at 2/1/2026, 7:33:35 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Sun, 01 Feb 2026 14:57:19 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1769957839583</guid>
+    <pubDate>Sun, 01 Feb 2026 15:33:35 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1769960015211</guid>
   </item>
   </channel>
 </rss>
