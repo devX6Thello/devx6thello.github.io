@@ -8,15 +8,15 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Overcast – 7:52:16 AM</title>
+    <title>Forecast Update – Overcast – 8:31:34 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Friday: Clear. High near 85°F, Low around 59°F. Pressure 29.65 inHg (Falling).
-Saturday: Clear. High near 85°F, Low around 60°F. Pressure 30.32 inHg (Rising rapidly).
-Sunday: Clear. High near 85°F, Low around 62°F. Pressure 30.29 inHg (Rising rapidly).
+Friday: Clear. High near 85°F, Low around 59°F. Pressure 29.53 inHg (Falling).
+Saturday: Clear. High near 85°F, Low around 60°F. Pressure 30.23 inHg (Rising rapidly).
+Sunday: Clear. High near 85°F, Low around 62°F. Pressure 29.95 inHg (Steady).
 Monday: Clear. High near 84°F, Low around 63°F. Pressure 30.32 inHg (Rising rapidly).
-Tuesday: Clear. High near 84°F, Low around 60°F. Pressure 29.98 inHg (Steady).
-Wednesday: Clear. High near 82°F, Low around 60°F. Pressure 29.53 inHg (Falling).
+Tuesday: Clear. High near 84°F, Low around 60°F. Pressure 30.06 inHg (Rising).
+Wednesday: Clear. High near 82°F, Low around 60°F. Pressure 30.1 inHg (Rising).
 Thursday: Clear. High near 85°F, Low around 63°F. Pressure 30.08 inHg (Rising).
 
 STORM TIMES...
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 08:17:45.
+Time to next boundary: 07:38:28.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 29.65 inHg (Falling)
+Barometer: 29.53 inHg (Falling)
 
-Report generated at 2/20/2026, 7:52:16 AM (PST/PDT).]]></description>
+Report generated at 2/20/2026, 8:31:34 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Fri, 20 Feb 2026 15:52:16 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1771602736187</guid>
+    <pubDate>Fri, 20 Feb 2026 16:31:34 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1771605094061</guid>
   </item>
   </channel>
 </rss>
