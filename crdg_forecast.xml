@@ -8,15 +8,15 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 2:45:59 AM</title>
+    <title>Forecast Update – Clear – 3:38:29 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Thursday: Overcast. High near 83°F, Low around 59°F. Pressure 30.13 inHg (Rising).
+Thursday: Overcast. High near 83°F, Low around 59°F. Pressure 30.06 inHg (Rising).
 Friday: Clear. High near 85°F, Low around 60°F. Pressure 29.53 inHg (Falling).
-Saturday: Clear. High near 84°F, Low around 61°F. Pressure 30.3 inHg (Rising rapidly).
-Sunday: Clear. High near 82°F, Low around 63°F. Pressure 30.43 inHg (Rising rapidly).
-Monday: Clear. High near 85°F, Low around 59°F. Pressure 29.56 inHg (Falling).
-Tuesday: Clear. High near 86°F, Low around 64°F. Pressure 29.53 inHg (Falling).
+Saturday: Clear. High near 84°F, Low around 61°F. Pressure 30.32 inHg (Rising rapidly).
+Sunday: Clear. High near 82°F, Low around 63°F. Pressure 29.95 inHg (Steady).
+Monday: Clear. High near 85°F, Low around 59°F. Pressure 30.05 inHg (Rising).
+Tuesday: Clear. High near 86°F, Low around 64°F. Pressure 30.09 inHg (Rising).
 Wednesday: Clear. High near 85°F, Low around 63°F. Pressure 30.08 inHg (Rising).
 
 STORM TIMES...
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 01:24:01.
+Time to next boundary: 00:31:31.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 30.13 inHg (Rising)
+Barometer: 30.06 inHg (Rising)
 
-Report generated at 4/2/2026, 2:45:59 AM (PST/PDT).]]></description>
+Report generated at 4/2/2026, 3:38:29 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Thu, 02 Apr 2026 09:45:59 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1775123159518</guid>
+    <pubDate>Thu, 02 Apr 2026 10:38:29 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1775126309820</guid>
   </item>
   </channel>
 </rss>
