@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Overcast – 7:06:27 AM</title>
+    <title>Forecast Update – Overcast – 8:14:21 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
 Thursday: Overcast. High near 83°F, Low around 59°F. Pressure 29.53 inHg (Falling).
-Friday: Clear. High near 85°F, Low around 60°F. Pressure 30.08 inHg (Rising).
+Friday: Clear. High near 85°F, Low around 60°F. Pressure 29.53 inHg (Falling).
 Saturday: Clear. High near 84°F, Low around 61°F. Pressure 30.13 inHg (Rising).
-Sunday: Clear. High near 82°F, Low around 63°F. Pressure 29.9 inHg (Steady).
-Monday: Clear. High near 85°F, Low around 59°F. Pressure 30.13 inHg (Rising).
-Tuesday: Clear. High near 86°F, Low around 64°F. Pressure 30.31 inHg (Rising rapidly).
-Wednesday: Clear. High near 85°F, Low around 63°F. Pressure 30.24 inHg (Rising rapidly).
+Sunday: Clear. High near 82°F, Low around 63°F. Pressure 30.23 inHg (Rising rapidly).
+Monday: Clear. High near 85°F, Low around 59°F. Pressure 30.31 inHg (Rising rapidly).
+Tuesday: Clear. High near 86°F, Low around 64°F. Pressure 30.26 inHg (Rising rapidly).
+Wednesday: Clear. High near 85°F, Low around 63°F. Pressure 30.3 inHg (Rising rapidly).
 
 STORM TIMES...
 No significant storms expected within 48 hours.
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 09:03:33.
+Time to next boundary: 07:55:39.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
 Barometer: 29.53 inHg (Falling)
 
-Report generated at 4/2/2026, 7:06:27 AM (PST/PDT).]]></description>
+Report generated at 4/2/2026, 8:14:21 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Thu, 02 Apr 2026 14:06:27 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1775138787924</guid>
+    <pubDate>Thu, 02 Apr 2026 15:14:21 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1775142861592</guid>
   </item>
   </channel>
 </rss>
