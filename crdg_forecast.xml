@@ -8,15 +8,15 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Overcast – 4:48:34 AM</title>
+    <title>Forecast Update – Clear – 5:31:28 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Friday: Clear. High near 85°F, Low around 60°F. Pressure 29.69 inHg (Falling).
-Saturday: Clear. High near 84°F, Low around 61°F. Pressure 30.12 inHg (Rising).
+Friday: Clear. High near 85°F, Low around 60°F. Pressure 30.08 inHg (Rising).
+Saturday: Clear. High near 84°F, Low around 61°F. Pressure 30.09 inHg (Rising).
 Sunday: Clear. High near 82°F, Low around 63°F. Pressure 30.13 inHg (Rising).
-Monday: Clear. High near 85°F, Low around 59°F. Pressure 30.28 inHg (Rising rapidly).
-Tuesday: Clear. High near 86°F, Low around 64°F. Pressure 29.69 inHg (Falling).
-Wednesday: Clear. High near 85°F, Low around 63°F. Pressure 30.13 inHg (Rising).
+Monday: Clear. High near 85°F, Low around 59°F. Pressure 29.57 inHg (Falling).
+Tuesday: Clear. High near 86°F, Low around 64°F. Pressure 29.53 inHg (Falling).
+Wednesday: Clear. High near 85°F, Low around 63°F. Pressure 30.12 inHg (Rising).
 Thursday: Clear. High near 82°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
 
 STORM TIMES...
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: WITHIN WINDOW
-Time to next boundary: 01:01:26.
+Time to next boundary: 00:18:32.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 29.69 inHg (Falling)
+Barometer: 30.08 inHg (Rising)
 
-Report generated at 4/3/2026, 4:48:34 AM (PST/PDT).]]></description>
+Report generated at 4/3/2026, 5:31:28 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Fri, 03 Apr 2026 11:48:34 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1775216914469</guid>
+    <pubDate>Fri, 03 Apr 2026 12:31:28 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1775219488332</guid>
   </item>
   </channel>
 </rss>
