@@ -8,15 +8,15 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 2:55:52 PM</title>
+    <title>Forecast Update – Clear – 3:34:45 PM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
 Saturday: Clear. High near 84°F, Low around 61°F. Pressure 30.32 inHg (Rising rapidly).
-Sunday: Clear. High near 82°F, Low around 63°F. Pressure 30.12 inHg (Rising).
-Monday: Clear. High near 85°F, Low around 59°F. Pressure 30.1 inHg (Rising).
-Tuesday: Clear. High near 86°F, Low around 64°F. Pressure 30.32 inHg (Rising rapidly).
-Wednesday: Clear. High near 85°F, Low around 63°F. Pressure 29.54 inHg (Falling).
-Thursday: Clear. High near 82°F, Low around 59°F. Pressure 30.13 inHg (Rising).
+Sunday: Clear. High near 82°F, Low around 63°F. Pressure 30.09 inHg (Rising).
+Monday: Clear. High near 85°F, Low around 59°F. Pressure 30.08 inHg (Rising).
+Tuesday: Clear. High near 86°F, Low around 64°F. Pressure 30.26 inHg (Rising rapidly).
+Wednesday: Clear. High near 85°F, Low around 63°F. Pressure 29.89 inHg (Steady).
+Thursday: Clear. High near 82°F, Low around 59°F. Pressure 30.31 inHg (Rising rapidly).
 Friday: Clear. High near 85°F, Low around 60°F. Pressure 30.13 inHg (Rising).
 
 STORM TIMES...
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 01:14:08.
+Time to next boundary: 00:35:15.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
 Barometer: 30.32 inHg (Rising rapidly)
 
-Report generated at 4/4/2026, 2:55:52 PM (PST/PDT).]]></description>
+Report generated at 4/4/2026, 3:34:45 PM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Sat, 04 Apr 2026 21:55:52 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1775339752738</guid>
+    <pubDate>Sat, 04 Apr 2026 22:34:45 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1775342085706</guid>
   </item>
   </channel>
 </rss>
