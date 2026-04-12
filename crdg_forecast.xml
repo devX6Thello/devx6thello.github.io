@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Overcast – 6:40:09 AM</title>
+    <title>Forecast Update – Overcast – 7:25:48 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
 Sunday: Clear. High near 83°F, Low around 60°F. Pressure 29.53 inHg (Falling).
 Monday: Clear. High near 82°F, Low around 63°F. Pressure 30.08 inHg (Rising).
-Tuesday: Clear. High near 85°F, Low around 63°F. Pressure 30.04 inHg (Rising).
-Wednesday: Clear. High near 84°F, Low around 63°F. Pressure 30.13 inHg (Rising).
-Thursday: Clear. High near 83°F, Low around 62°F. Pressure 29.68 inHg (Falling).
-Friday: Overcast. High near 85°F, Low around 60°F. Pressure 29.58 inHg (Falling).
-Saturday: Clear. High near 85°F, Low around 59°F. Pressure 30.08 inHg (Rising).
+Tuesday: Clear. High near 85°F, Low around 63°F. Pressure 30.35 inHg (Rising rapidly).
+Wednesday: Clear. High near 84°F, Low around 63°F. Pressure 30.09 inHg (Rising).
+Thursday: Clear. High near 83°F, Low around 62°F. Pressure 29.53 inHg (Falling).
+Friday: Overcast. High near 85°F, Low around 60°F. Pressure 29.63 inHg (Falling).
+Saturday: Clear. High near 85°F, Low around 59°F. Pressure 29.69 inHg (Falling).
 
 STORM TIMES...
 No significant storms expected within 48 hours.
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 09:29:52.
+Time to next boundary: 08:44:12.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
 Barometer: 29.53 inHg (Falling)
 
-Report generated at 4/12/2026, 6:40:09 AM (PST/PDT).]]></description>
+Report generated at 4/12/2026, 7:25:48 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Sun, 12 Apr 2026 13:40:09 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1776001209024</guid>
+    <pubDate>Sun, 12 Apr 2026 14:25:48 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1776003948717</guid>
   </item>
   </channel>
 </rss>
