@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 4:02:42 PM</title>
+    <title>Forecast Update – Clear – 4:54:52 PM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
 Thursday: Clear. High near 83°F, Low around 62°F. Pressure 30.08 inHg (Rising).
-Friday: Overcast. High near 85°F, Low around 60°F. Pressure 29.7 inHg (Falling).
-Saturday: Clear. High near 85°F, Low around 59°F. Pressure 29.53 inHg (Falling).
+Friday: Overcast. High near 85°F, Low around 60°F. Pressure 30.08 inHg (Rising).
+Saturday: Clear. High near 85°F, Low around 59°F. Pressure 29.85 inHg (Steady).
 Sunday: Clear. High near 85°F, Low around 62°F. Pressure 30.13 inHg (Rising).
 Monday: Clear. High near 85°F, Low around 64°F. Pressure 29.53 inHg (Falling).
-Tuesday: Clear. High near 82°F, Low around 63°F. Pressure 29.9 inHg (Steady).
-Wednesday: Clear. High near 83°F, Low around 62°F. Pressure 29.99 inHg (Steady).
+Tuesday: Clear. High near 82°F, Low around 63°F. Pressure 29.55 inHg (Falling).
+Wednesday: Clear. High near 83°F, Low around 62°F. Pressure 30.29 inHg (Rising rapidly).
 
 STORM TIMES...
 No significant storms expected within 48 hours.
@@ -25,18 +25,18 @@ No significant storms expected within 48 hours.
 BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
-Status: OUT OF WINDOW
-Time to next boundary: 12:07:18.
+Status: WITHIN WINDOW
+Time to next boundary: 00:55:08.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
 Barometer: 30.08 inHg (Rising)
 
-Report generated at 4/16/2026, 4:02:42 PM (PST/PDT).]]></description>
+Report generated at 4/16/2026, 4:54:52 PM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Thu, 16 Apr 2026 23:02:42 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1776380562980</guid>
+    <pubDate>Thu, 16 Apr 2026 23:54:52 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1776383692725</guid>
   </item>
   </channel>
 </rss>
