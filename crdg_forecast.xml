@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Overcast – 10:31:20 PM</title>
+    <title>Forecast Update – Clear – 1:43:52 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Sunday: Clear. High near 85°F, Low around 61°F. Pressure 29.67 inHg (Falling).
-Monday: Clear. High near 85°F, Low around 63°F. Pressure 29.53 inHg (Falling).
-Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 30.08 inHg (Rising).
-Wednesday: Clear. High near 86°F, Low around 62°F. Pressure 30.35 inHg (Rising rapidly).
-Thursday: Clear. High near 85°F, Low around 59°F. Pressure 30.09 inHg (Rising).
-Friday: Clear. High near 83°F, Low around 64°F. Pressure 29.53 inHg (Falling).
-Saturday: Clear. High near 83°F, Low around 63°F. Pressure 29.62 inHg (Falling).
+Monday: Clear. High near 85°F, Low around 63°F. Pressure 30.23 inHg (Rising rapidly).
+Tuesday: Clear. High near 83°F, Low around 60°F. Pressure 29.53 inHg (Falling).
+Wednesday: Clear. High near 86°F, Low around 62°F. Pressure 30.1 inHg (Rising).
+Thursday: Clear. High near 85°F, Low around 59°F. Pressure 30.13 inHg (Rising).
+Friday: Clear. High near 83°F, Low around 64°F. Pressure 30.13 inHg (Rising).
+Saturday: Clear. High near 83°F, Low around 63°F. Pressure 30.13 inHg (Rising).
+Sunday: Clear. High near 83°F, Low around 59°F. Pressure 29.86 inHg (Steady).
 
 STORM TIMES...
 No significant storms expected within 48 hours.
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 05:38:41.
+Time to next boundary: 02:26:08.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 29.67 inHg (Falling)
+Barometer: 30.23 inHg (Rising rapidly)
 
-Report generated at 5/10/2026, 10:31:20 PM (PST/PDT).]]></description>
+Report generated at 5/11/2026, 1:43:52 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Mon, 11 May 2026 05:31:20 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1778477480103</guid>
+    <pubDate>Mon, 11 May 2026 08:43:52 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1778489032823</guid>
   </item>
   </channel>
 </rss>
