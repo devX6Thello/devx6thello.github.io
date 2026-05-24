@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>reed timer</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: #ffffff;
+      color: #111111;
+      overflow: hidden;
+    }
+
+    .timer-card {
+      width: 100vw;
+      height: 320px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 16px;
+      background: #f5f5f5;
+      border: 2px solid #333333;
+      border-radius: 0;
+      box-shadow: none;
+      text-align: left;
+      overflow: hidden;
+    }
+
+    .label {
+      margin: 0;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #777777;
+      font-size: 15px;
+      font-weight: 700;
+      color: #111111;
+    }
+
+    .content-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 14px;
+      padding-top: 14px;
+    }
+
+    .main-content {
+      flex: 1 1 auto;
+      min-width: 0;
+    }
+
+    .countdown {
+      margin: 0 0 14px 0;
+      font-size: clamp(38px, 7vw, 56px);
+      line-height: 1.15;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: -0.02em;
+      color: #000000;
+      white-space: nowrap;
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      margin-bottom: 10px;
+      padding: 4px 0;
+      font-size: 15px;
+      font-weight: 700;
+      color: #111111;
+      background: transparent;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      background: #777777;
+    }
+
+    .active .status {
+      color: #005500;
+    }
+
+    .active .dot {
+      background: #008000;
+    }
+
+    .waiting .status {
+      color: #8a5a00;
+    }
+
+    .waiting .dot {
+      background: #b36b00;
+    }
+
+    .window-info,
+    .local-info {
+      margin: 5px 0;
+      font-size: 14px;
+      line-height: 1.3;
+      color: #222222;
+    }
+
+    .schedule {
+      flex: 0 0 280px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 6px;
+      margin: 0;
+      font-size: 14px;
+      color: #111111;
+    }
+
+    .slot {
+      padding: 11px 12px;
+      background: #ffffff;
+      border: 1px solid #999999;
+      font-variant-numeric: tabular-nums;
+      min-height: 54px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 3px;
+    }
+
+    .slot-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: #444444;
+    }
+
+    .slot-time {
+      font-size: 14px;
+      color: #111111;
+    }
+
+    .slot.current {
+      background: #dcdcdc;
+      border-color: #333333;
+      font-weight: 700;
+    }
+
+    @media (max-width: 560px) {
+      .content-row {
+        display: block;
+      }
+
+      .countdown {
+        font-size: 36px;
+      }
+
+      .schedule {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="timer-card waiting" id="card">
+    <div class="label" id="label">The next blimp arrives in...</div>
+
+    <div class="content-row">
+      <div class="main-content">
+        <div class="countdown" id="countdown">0h 00m 00s</div>
+        <div class="status" id="status"><span class="dot"></span><span id="statusText">Waiting</span></div>
+        <div class="window-info" id="windowInfo">Loading...</div>
+        <div class="local-info" id="estTime">Current time: --:--:--</div>
+      </div>
+
+      <section class="schedule" id="schedule"></section>
+    </div>
+  </main>
+
+  <script>
+    const EDT_OFFSET_MINUTES = -4 * 60;
+
+    const WINDOWS = [
+      { label: "Blimp 1", start: "02:00", end: "02:45" },
+      { label: "Blimp 2", start: "07:10", end: "08:45" },
+      { label: "Blimp 3", start: "14:00", end: "14:14" },
+      { label: "Blimp 4", start: "19:10", end: "20:45" }
+    ];
+
+    const card = document.getElementById("card");
+    const label = document.getElementById("label");
+    const countdown = document.getElementById("countdown");
+    const statusText = document.getElementById("statusText");
+    const windowInfo = document.getElementById("windowInfo");
+    const estTime = document.getElementById("estTime");
+    const schedule = document.getElementById("schedule");
+
+    function pad(value) {
+      return String(value).padStart(2, "0");
+    }
+
+    function timeToMinutes(time) {
+      const parts = time.split(":");
+      return Number(parts[0]) * 60 + Number(parts[1]);
+    }
+
+    function formatDuration(milliseconds) {
+      const totalSeconds = Math.max(0, Math.floor(milliseconds / 1000));
+      const hours = Math.floor(totalSeconds / 3600);
+      const minutes = Math.floor((totalSeconds % 3600) / 60);
+      const seconds = totalSeconds % 60;
+      return pad(hours) + "h " + pad(minutes) + "m " + pad(seconds) + "s";
+    }
+
+    function getEdtNow(date) {
+      const edtDate = new Date(date.getTime() + EDT_OFFSET_MINUTES * 60000);
+      return {
+        year: edtDate.getUTCFullYear(),
+        month: edtDate.getUTCMonth(),
+        day: edtDate.getUTCDate(),
+        hour: edtDate.getUTCHours(),
+        minute: edtDate.getUTCMinutes(),
+        second: edtDate.getUTCSeconds(),
+        minuteOfDay: edtDate.getUTCHours() * 60 + edtDate.getUTCMinutes()
+      };
+    }
+
+    function edtTimeToRealMilliseconds(edtParts, minuteOfDay, dayOffset) {
+      const hour = Math.floor(minuteOfDay / 60);
+      const minute = minuteOfDay % 60;
+
+      const edtAsUtc = Date.UTC(
+        edtParts.year,
+        edtParts.month,
+        edtParts.day + dayOffset,
+        hour,
+        minute,
+        0,
+        0
+      );
+
+      return edtAsUtc - EDT_OFFSET_MINUTES * 60000;
+    }
+
+    function formatLocalTime(ms) {
+      return new Intl.DateTimeFormat(undefined, {
+        hour: "2-digit",
+        minute: "2-digit"
+      }).format(new Date(ms));
+    }
+
+    function getLocalWindowLabel(win, edt) {
+      const startMinutes = timeToMinutes(win.start);
+      const endMinutes = timeToMinutes(win.end);
+      const startMs = edtTimeToRealMilliseconds(edt, startMinutes, 0);
+      const endMs = edtTimeToRealMilliseconds(edt, endMinutes, 0);
+      return formatLocalTime(startMs) + " - " + formatLocalTime(endMs);
+    }
+
+    function renderSchedule(activeIndex, edt) {
+      let html = "";
+
+      for (let i = 0; i < WINDOWS.length; i++) {
+        const activeClass = i === activeIndex ? " current" : "";
+        const localInterval = getLocalWindowLabel(WINDOWS[i], edt);
+        html += '<div class="slot' + activeClass + '"><div class="slot-label">' + WINDOWS[i].label + '</div><div class="slot-time">' + localInterval + '</div></div>';
+      }
+
+      schedule.innerHTML = html;
+    }
+
+    function updateTimer() {
+      const now = new Date();
+      const edt = getEdtNow(now);
+      const nowMinutes = edt.minuteOfDay;
+      const nowMs = now.getTime();
+
+      let activeIndex = -1;
+      let targetMs = 0;
+
+      for (let i = 0; i < WINDOWS.length; i++) {
+        const startMinutes = timeToMinutes(WINDOWS[i].start);
+        const endMinutes = timeToMinutes(WINDOWS[i].end);
+
+        if (nowMinutes >= startMinutes && nowMinutes < endMinutes) {
+          activeIndex = i;
+          targetMs = edtTimeToRealMilliseconds(edt, endMinutes, 0);
+          break;
+        }
+      }
+
+      if (activeIndex >= 0) {
+        const current = WINDOWS[activeIndex];
+        card.className = "timer-card active";
+        label.textContent = "Time until this window ends";
+        countdown.textContent = formatDuration(targetMs - nowMs);
+        statusText.textContent = "Active";
+        windowInfo.textContent = "Current window: " + getLocalWindowLabel(current, edt);
+        renderSchedule(activeIndex, edt);
+      } else {
+        let nextIndex = 0;
+        let dayOffset = 1;
+
+        for (let i = 0; i < WINDOWS.length; i++) {
+          const startMinutes = timeToMinutes(WINDOWS[i].start);
+
+          if (startMinutes > nowMinutes) {
+            nextIndex = i;
+            dayOffset = 0;
+            break;
+          }
+        }
+
+        const next = WINDOWS[nextIndex];
+        const nextStartMinutes = timeToMinutes(next.start);
+        targetMs = edtTimeToRealMilliseconds(edt, nextStartMinutes, dayOffset);
+
+        card.className = "timer-card waiting";
+        label.textContent = "The next blimp arrives in...";
+        countdown.textContent = formatDuration(targetMs - nowMs);
+        statusText.textContent = "Waiting";
+        windowInfo.textContent = "Next window: " + getLocalWindowLabel(next, edt);
+        renderSchedule(nextIndex, edt);
+      }
+
+      estTime.textContent = "Current Time (EST): " + pad(edt.hour) + ":" + pad(edt.minute) + ":" + pad(edt.second);
+    }
+
+    updateTimer();
+    setInterval(updateTimer, 1000);
+  </script>
+</body>
+</html>
