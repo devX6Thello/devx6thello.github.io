@@ -301,7 +301,7 @@
       if (activeIndex >= 0) {
         const current = WINDOWS[activeIndex];
         card.className = "timer-card active";
-        label.textContent = "Time until this window ends";
+        label.textContent = "The blimp will leave in...";
         countdown.textContent = formatDuration(targetMs - nowMs);
         statusText.textContent = "Active";
         windowInfo.textContent = "Current window: " + getLocalWindowLabel(current, edt);
