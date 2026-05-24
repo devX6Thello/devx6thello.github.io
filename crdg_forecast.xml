@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>CRDG Weather Service Forecast</title>
+    <link>https://devX6Thello.github.io/</link>
+    <description>Automated simulated CRDG forecast feed (NWS bulletin style).</description>
+    <language>en-us</language>
+    <generator>CRDG Automated Forecast Unit</generator>
+    <ttl>5</ttl>
+    <item>
+    <title>Forecast Update – Clear – 3:10:30 AM</title>
+    <link>https://devX6Thello.github.io/</link>
+    <description><![CDATA[NOW YOUR 7-DAY FORECAST...
+Sunday: Clear. High near 84°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
+Monday: Clear. High near 86°F, Low around 60°F. Pressure 30.13 inHg (Rising).
+Tuesday: Clear. High near 85°F, Low around 63°F. Pressure 30.32 inHg (Rising rapidly).
+Wednesday: Clear. High near 83°F, Low around 61°F. Pressure 30.13 inHg (Rising).
+Thursday: Clear. High near 83°F, Low around 60°F. Pressure 30.13 inHg (Rising).
+Friday: Clear. High near 83°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
+Saturday: Clear. High near 85°F, Low around 60°F. Pressure 30.12 inHg (Rising).
+
+STORM TIMES...
+Next storm: 10:28:25 PM – 10:49:54 PM PST.
+
+BLIMP OPERATION TIMES...
+Morning window: 04:10–05:50
+Evening window: 16:10–17:50
+Status: OUT OF WINDOW
+Time to next boundary: 00:59:30.
+
+OBSERVATIONS FROM AROUND THE AREA:
+(no observations reported)
+
+Barometer: 30.32 inHg (Rising rapidly)
+
+Report generated at 5/24/2026, 3:10:30 AM (PST/PDT).]]></description>
+    <category>Weather Forecast</category>
+    <pubDate>Sun, 24 May 2026 10:10:30 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1779617430660</guid>
+  </item>
+  </channel>
+</rss>
