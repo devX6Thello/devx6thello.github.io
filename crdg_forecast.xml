@@ -8,35 +8,35 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 2:34:31 AM</title>
+    <title>Forecast Update – Clear – 4:08:00 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Saturday: Clear. High near 83°F, Low around 63°F. Pressure 29.94 inHg (Steady).
-Sunday: Clear. High near 85°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
-Monday: Clear. High near 83°F, Low around 59°F. Pressure 30.02 inHg (Rising).
-Tuesday: Clear. High near 85°F, Low around 60°F. Pressure 30.22 inHg (Rising rapidly).
-Wednesday: Clear. High near 85°F, Low around 63°F. Pressure 30.08 inHg (Rising).
-Thursday: Clear. High near 83°F, Low around 59°F. Pressure 30.09 inHg (Rising).
-Friday: Clear. High near 84°F, Low around 61°F. Pressure 29.83 inHg (Steady).
+Saturday: Clear. High near 83°F, Low around 63°F. Pressure 30.09 inHg (Rising).
+Sunday: Clear. High near 85°F, Low around 59°F. Pressure 30.1 inHg (Rising).
+Monday: Clear. High near 83°F, Low around 59°F. Pressure 29.68 inHg (Falling).
+Tuesday: Clear. High near 85°F, Low around 60°F. Pressure 30.17 inHg (Rising).
+Wednesday: Clear. High near 85°F, Low around 63°F. Pressure 30.13 inHg (Rising).
+Thursday: Clear. High near 83°F, Low around 59°F. Pressure 30.08 inHg (Rising).
+Friday: Clear. High near 84°F, Low around 61°F. Pressure 29.86 inHg (Steady).
 
 STORM TIMES...
-Next storm: 6:01:46 PM – 6:23:15 PM PST.
+Next storm: 6:01:45 PM – 6:23:14 PM PST.
 
 BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 01:35:30.
+Time to next boundary: 12:02:00.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 29.94 inHg (Steady)
+Barometer: 30.09 inHg (Rising)
 
-Report generated at 6/6/2026, 2:34:31 AM (PST/PDT).]]></description>
+Report generated at 6/6/2026, 4:08:00 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Sat, 06 Jun 2026 09:34:31 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1780738471033</guid>
+    <pubDate>Sat, 06 Jun 2026 11:08:00 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1780744080261</guid>
   </item>
   </channel>
 </rss>
