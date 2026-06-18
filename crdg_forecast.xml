@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 5:42:37 AM</title>
+    <title>Forecast Update – Clear – 9:18:00 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Thursday: Clear. High near 83°F, Low around 62°F. Pressure 29.88 inHg (Steady).
-Friday: Clear. High near 85°F, Low around 60°F. Pressure 30.26 inHg (Rising rapidly).
-Saturday: Clear. High near 86°F, Low around 61°F. Pressure 30.13 inHg (Rising).
-Sunday: Clear. High near 85°F, Low around 63°F. Pressure 30.09 inHg (Rising).
-Monday: Clear. High near 84°F, Low around 61°F. Pressure 30.32 inHg (Rising rapidly).
-Tuesday: Clear. High near 84°F, Low around 61°F. Pressure 30.31 inHg (Rising rapidly).
-Wednesday: Clear. High near 83°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
+Thursday: Clear. High near 83°F, Low around 62°F. Pressure 30.08 inHg (Rising).
+Friday: Clear. High near 85°F, Low around 60°F. Pressure 30.16 inHg (Rising).
+Saturday: Clear. High near 86°F, Low around 61°F. Pressure 30.25 inHg (Rising rapidly).
+Sunday: Clear. High near 85°F, Low around 63°F. Pressure 30.32 inHg (Rising rapidly).
+Monday: Clear. High near 84°F, Low around 61°F. Pressure 30.13 inHg (Rising).
+Tuesday: Clear. High near 84°F, Low around 61°F. Pressure 30.08 inHg (Rising).
+Wednesday: Clear. High near 83°F, Low around 59°F. Pressure 29.62 inHg (Falling).
 
 STORM TIMES...
 No significant storms expected within 48 hours.
@@ -25,18 +25,18 @@ No significant storms expected within 48 hours.
 BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
-Status: WITHIN WINDOW
-Time to next boundary: 00:07:23.
+Status: OUT OF WINDOW
+Time to next boundary: 06:52:00.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 29.88 inHg (Steady)
+Barometer: 30.08 inHg (Rising)
 
-Report generated at 6/18/2026, 5:42:37 AM (PST/PDT).]]></description>
+Report generated at 6/18/2026, 9:18:00 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Thu, 18 Jun 2026 12:42:37 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1781786557520</guid>
+    <pubDate>Thu, 18 Jun 2026 16:18:00 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1781799480385</guid>
   </item>
   </channel>
 </rss>
