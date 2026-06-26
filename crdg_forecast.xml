@@ -8,16 +8,16 @@
     <generator>CRDG Automated Forecast Unit</generator>
     <ttl>5</ttl>
     <item>
-    <title>Forecast Update – Clear – 10:51:04 PM</title>
+    <title>Forecast Update – Clear – 1:50:26 AM</title>
     <link>https://devX6Thello.github.io/</link>
     <description><![CDATA[NOW YOUR 7-DAY FORECAST...
-Thursday: Clear. High near 82°F, Low around 59°F. Pressure 30.12 inHg (Rising).
-Friday: Clear. High near 82°F, Low around 63°F. Pressure 29.53 inHg (Falling).
+Friday: Clear. High near 82°F, Low around 63°F. Pressure 30.32 inHg (Rising rapidly).
 Saturday: Clear. High near 84°F, Low around 61°F. Pressure 30.32 inHg (Rising rapidly).
-Sunday: Clear. High near 85°F, Low around 63°F. Pressure 29.73 inHg (Falling).
-Monday: Clear. High near 85°F, Low around 60°F. Pressure 30.14 inHg (Rising).
-Tuesday: Clear. High near 85°F, Low around 59°F. Pressure 30.32 inHg (Rising rapidly).
-Wednesday: Clear. High near 84°F, Low around 59°F. Pressure 30.23 inHg (Rising rapidly).
+Sunday: Clear. High near 85°F, Low around 63°F. Pressure 29.37 inHg (Falling rapidly).
+Monday: Clear. High near 85°F, Low around 60°F. Pressure 30.13 inHg (Rising).
+Tuesday: Clear. High near 85°F, Low around 59°F. Pressure 29.53 inHg (Falling).
+Wednesday: Clear. High near 84°F, Low around 59°F. Pressure 29.56 inHg (Falling).
+Thursday: Clear. High near 84°F, Low around 59°F. Pressure 30.23 inHg (Rising rapidly).
 
 STORM TIMES...
 No significant storms expected within 48 hours.
@@ -26,17 +26,17 @@ BLIMP OPERATION TIMES...
 Morning window: 04:10–05:50
 Evening window: 16:10–17:50
 Status: OUT OF WINDOW
-Time to next boundary: 05:18:56.
+Time to next boundary: 02:19:34.
 
 OBSERVATIONS FROM AROUND THE AREA:
 (no observations reported)
 
-Barometer: 30.12 inHg (Rising)
+Barometer: 30.32 inHg (Rising rapidly)
 
-Report generated at 6/25/2026, 10:51:04 PM (PST/PDT).]]></description>
+Report generated at 6/26/2026, 1:50:26 AM (PST/PDT).]]></description>
     <category>Weather Forecast</category>
-    <pubDate>Fri, 26 Jun 2026 05:51:04 GMT</pubDate>
-    <guid isPermaLink="false">crdg-1782453064978</guid>
+    <pubDate>Fri, 26 Jun 2026 08:50:26 GMT</pubDate>
+    <guid isPermaLink="false">crdg-1782463826140</guid>
   </item>
   </channel>
 </rss>
