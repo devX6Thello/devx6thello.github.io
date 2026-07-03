@@ -31,6 +31,13 @@
 
     <button id="refresh-storms" type="button">Refresh storm times</button>
     <button id="toggle-sound" type="button">Mute sound</button>
+    <label for="sort-storms">Sort by:</label>
+    <select id="sort-storms">
+      <option value="soonest">Happening soon to last</option>
+      <option value="latest">Happening last to soon</option>
+      <option value="longest">Longest to shortest</option>
+      <option value="shortest">Shortest to longest</option>
+    </select>
 
     <h2>Next storms</h2>
     <table>
@@ -1083,6 +1090,7 @@
   const stormsBody = document.getElementById("storms-body");
   const refreshButton = document.getElementById("refresh-storms");
   const toggleSoundButton = document.getElementById("toggle-sound");
+  const sortStormsSelect = document.getElementById("sort-storms");
 
   const soundController = core.createSoundController({
     basePath: "Audios/",
@@ -1178,8 +1186,21 @@
     }
 
     const nowSeconds = Date.now() / 1000;
+    const sortedStorms = [...upcomingStorms].sort((a, b) => {
+      switch (sortStormsSelect.value) {
+        case "latest":
+          return b.startUnixSeconds - a.startUnixSeconds;
+        case "longest":
+          return (b.durationSeconds ?? -1) - (a.durationSeconds ?? -1);
+        case "shortest":
+          return (a.durationSeconds ?? Number.POSITIVE_INFINITY) -
+            (b.durationSeconds ?? Number.POSITIVE_INFINITY);
+        default:
+          return a.startUnixSeconds - b.startUnixSeconds;
+      }
+    });
 
-    upcomingStorms.forEach((storm, index) => {
+    sortedStorms.forEach((storm, index) => {
       const row = document.createElement("tr");
       const countdown = Math.max(0, Math.ceil(storm.startUnixSeconds - nowSeconds));
       const values = [
@@ -1219,7 +1240,7 @@
         refreshButton.disabled = false;
       }
     }, 0);
-  }
+  } 
 
   toggleSoundButton.addEventListener("click", function () {
     const state = soundController.getState();
@@ -1229,6 +1250,7 @@
   });
 
   refreshButton.addEventListener("click", scanForUpcomingStorms);
+  sortStormsSelect.addEventListener("change", renderStormRows);
 
   for (const eventName of ["pointerdown", "touchstart", "keydown"]) {
     document.addEventListener(eventName, () => setTimeout(renderSoundStatus, 0), {
