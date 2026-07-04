@@ -187,7 +187,6 @@
   </main>
 
   <script>
-    // IANA time zone names automatically account for daylight saving time.
     const SCHEDULE_TIME_ZONE = "America/New_York";
 
     const WINDOWS = [
@@ -267,8 +266,6 @@
       return representedAsUtc - date.getTime();
     }
 
-    // Converts a wall-clock time in SCHEDULE_TIME_ZONE to a real UTC timestamp.
-    // Recalculating the offset handles EST/EDT automatically on DST boundaries.
     function zonedTimeToMilliseconds(zoneParts, minuteOfDay, dayOffset) {
       const baseDate = new Date(Date.UTC(
         zoneParts.year,
