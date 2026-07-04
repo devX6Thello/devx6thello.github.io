@@ -31,6 +31,22 @@
 
     <button id="refresh-storms" type="button">Refresh storm times</button>
     <button id="toggle-sound" type="button">Mute sound</button>
+    <audio id="myAudio" src="https://www.kozco.com/tech/piano2-Audacity1.2.5.mp3" preload="auto"></audio>
+    
+    <!-- 2. Create the button -->
+    <button onclick="togglePlay()">Test Audio</button>
+    
+    <!-- 3. JavaScript logic -->
+    <script>
+    function togglePlay() {
+      var myAudio = document.getElementById("myAudio");
+      if (myAudio.paused) {
+        myAudio.play();
+      } else {
+        myAudio.pause();
+      }
+    }
+    </script>
     <label for="sort-storms">Sort by:</label>
     <select id="sort-storms">
       <option value="soonest">Happening soon to last</option>
