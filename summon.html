@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Summon Timer</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 12px;
+      background: #f5f5f5;
+      color: #000;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+    }
+
+    .page {
+      width: 100%;
+    }
+
+    .heading {
+      margin-bottom: 8px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .divider {
+      margin: 0;
+      border: 0;
+      border-top: 1px solid #888;
+    }
+
+    .content {
+      min-height: 235px;
+      padding-top: 14px;
+    }
+
+    .countdown {
+      margin: 0 0 20px;
+      font-size: clamp(40px, 4vw, 52px);
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .status-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+
+    .status-square {
+      width: 10px;
+      height: 10px;
+      background: #b47400;
+    }
+
+    .status-square.active {
+      background: #238823;
+    }
+
+    .status-text {
+      color: #9a6500;
+    }
+
+    .status-text.active {
+      color: #187c18;
+    }
+
+    .details {
+      line-height: 1.7;
+    }
+
+    .slider-section {
+      width: min(850px, 100%);
+      margin-top: 23px;
+    }
+
+    .slider-labels {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 6px;
+      color: #555;
+      font-size: 11px;
+    }
+
+    .slider {
+      position: relative;
+      width: 100%;
+      height: 10px;
+      border: 1px solid #777;
+      background: #fff;
+    }
+
+    .active-zone {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      background: #cce8cc;
+    }
+
+    .slider-fill {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      background: #888;
+    }
+
+    .slider-handle {
+      position: absolute;
+      top: 50%;
+      width: 5px;
+      height: 18px;
+      background: #111;
+      transform: translate(-50%, -50%);
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 6px 10px;
+      border: 1px solid #888;
+      background: #efefef;
+      color: #000;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #ddd;
+    }
+
+    button.enabled {
+      background: #d9efd9;
+    }
+
+    .sound-note {
+      margin-top: 9px;
+      color: #555;
+      font-size: 11px;
+    }
+
+    .bottom-divider {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <audio id="startSound" src="start.mp3" preload="auto"></audio>
+  <audio id="stopSound" src="stop.mp3" preload="auto"></audio>
+
+  <div class="page">
+    <div class="heading">The next summon period is in...</div>
+
+    <hr class="divider">
+
+    <main class="content">
+      <div id="countdown" class="countdown">
+        00h 00m 00s
+      </div>
+
+      <div class="status-row">
+        <span id="statusSquare" class="status-square"></span>
+        <span id="statusText" class="status-text">
+          Waiting
+        </span>
+      </div>
+
+      <div class="details">
+        <div>
+          Next window:
+          <span id="nextWindow">--</span>
+        </div>
+
+        <div>
+          Current Time:
+          <span id="currentTime">--</span>
+        </div>
+      </div>
+
+      <div class="slider-section">
+        <div class="slider-labels">
+          <span>Cycle start</span>
+          <span id="progressText">0.0%</span>
+          <span>Summon window</span>
+        </div>
+
+        <div class="slider">
+          <div id="activeZone" class="active-zone"></div>
+          <div id="sliderFill" class="slider-fill"></div>
+          <div id="sliderHandle" class="slider-handle"></div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="enableSound" type="button">
+          Enable sound
+        </button>
+
+        <button id="muteSound" type="button">
+          Mute sound
+        </button>
+
+        <button id="testStart" type="button">
+          Test sound
+        </button>
+      </div>
+
+      <div class="sound-note">
+        Version 1.0
+      </div>
+    </main>
+
+    <hr class="divider bottom-divider">
+  </div>
+
+  <script>
+    "use strict";
+
+    const SUMMON_CYCLE_SECONDS = 1742;
+    const SUMMON_WINDOW_START_SECONDS = 1680;
+
+    const SUMMON_ACTIVE_SECONDS =
+      SUMMON_CYCLE_SECONDS - SUMMON_WINDOW_START_SECONDS;
+
+    const startSound = document.getElementById("startSound");
+    const stopSound = document.getElementById("stopSound");
+
+    let soundEnabled = false;
+    let soundMuted = false;
+    let previousActiveState = null;
+
+    function getSummonStatus(
+      nowUnixSeconds = Date.now() / 1000
+    ) {
+      const now = Math.floor(nowUnixSeconds);
+
+      const cyclePosition =
+        ((now % SUMMON_CYCLE_SECONDS) +
+          SUMMON_CYCLE_SECONDS) %
+        SUMMON_CYCLE_SECONDS;
+
+      const cycleStartUnix =
+        now - cyclePosition;
+
+      const windowStartUnix =
+        cycleStartUnix +
+        SUMMON_WINDOW_START_SECONDS;
+
+      const cycleEndUnix =
+        cycleStartUnix +
+        SUMMON_CYCLE_SECONDS;
+
+      const active =
+        cyclePosition >=
+        SUMMON_WINDOW_START_SECONDS;
+
+      return {
+        active,
+        cyclePosition,
+        windowStartUnix,
+        cycleEndUnix,
+
+        nextWindowStartUnix: active
+          ? windowStartUnix + SUMMON_CYCLE_SECONDS
+          : windowStartUnix
+      };
+    }
+
+    function formatCountdown(totalSeconds) {
+      const safeSeconds =
+        Math.max(0, Math.floor(totalSeconds));
+
+      const hours =
+        Math.floor(safeSeconds / 3600);
+
+      const minutes =
+        Math.floor((safeSeconds % 3600) / 60);
+
+      const seconds =
+        safeSeconds % 60;
+
+      return (
+        String(hours).padStart(2, "0") +
+        "h " +
+        String(minutes).padStart(2, "0") +
+        "m " +
+        String(seconds).padStart(2, "0") +
+        "s"
+      );
+    }
+
+    function formatClock(
+      unixSeconds,
+      includeSeconds = true
+    ) {
+      return new Date(unixSeconds * 1000)
+        .toLocaleTimeString([], {
+          hour: "2-digit",
+          minute: "2-digit",
+          second: includeSeconds
+            ? "2-digit"
+            : undefined
+        });
+    }
+
+    function enableAudio() {
+      soundEnabled = true;
+
+      startSound.load();
+      stopSound.load();
+
+      const button =
+        document.getElementById("enableSound");
+
+      button.textContent = "Sound enabled";
+      button.classList.add("enabled");
+    }
+
+    function playAudioFile(audioElement) {
+      if (
+        !soundEnabled ||
+        soundMuted
+      ) {
+        return;
+      }
+
+      audioElement.pause();
+      audioElement.currentTime = 0;
+
+      audioElement.play().catch(error => {
+        console.error(
+          "Audio playback failed:",
+          error
+        );
+      });
+    }
+
+    function playStartSound() {
+      playAudioFile(startSound);
+    }
+
+    function playStopSound() {
+      playAudioFile(stopSound);
+    }
+
+    function updatePage() {
+      const now =
+        Math.floor(Date.now() / 1000);
+
+      const status =
+        getSummonStatus(now);
+
+      if (
+        previousActiveState !== null &&
+        status.active !== previousActiveState
+      ) {
+        if (status.active) {
+          playStartSound();
+        } else {
+          playStopSound();
+        }
+      }
+
+      previousActiveState =
+        status.active;
+
+      const remainingSeconds =
+        status.active
+          ? status.cycleEndUnix - now
+          : status.nextWindowStartUnix - now;
+
+      document.getElementById(
+        "countdown"
+      ).textContent =
+        formatCountdown(remainingSeconds);
+
+      const statusSquare =
+        document.getElementById("statusSquare");
+
+      const statusText =
+        document.getElementById("statusText");
+
+      if (status.active) {
+        statusSquare.className =
+          "status-square active";
+
+        statusText.className =
+          "status-text active";
+
+        statusText.textContent =
+          "Summon active";
+      } else {
+        statusSquare.className =
+          "status-square";
+
+        statusText.className =
+          "status-text";
+
+        statusText.textContent =
+          "Waiting";
+      }
+
+      const displayedWindowStart =
+        status.active
+          ? status.windowStartUnix
+          : status.nextWindowStartUnix;
+
+      document.getElementById(
+        "nextWindow"
+      ).textContent =
+        formatClock(
+          displayedWindowStart,
+          false
+        ) +
+        " - " +
+        formatClock(
+          displayedWindowStart +
+            SUMMON_ACTIVE_SECONDS,
+          false
+        );
+
+      document.getElementById(
+        "currentTime"
+      ).textContent =
+        formatClock(now, true);
+
+      const progressPercent =
+        Math.min(
+          100,
+          Math.max(
+            0,
+            status.cyclePosition /
+              SUMMON_CYCLE_SECONDS *
+              100
+          )
+        );
+
+      document.getElementById(
+        "sliderFill"
+      ).style.width =
+        progressPercent + "%";
+
+      document.getElementById(
+        "sliderHandle"
+      ).style.left =
+        progressPercent + "%";
+
+      document.getElementById(
+        "progressText"
+      ).textContent =
+        progressPercent.toFixed(1) + "%";
+
+      const activeZonePercent =
+        SUMMON_ACTIVE_SECONDS /
+        SUMMON_CYCLE_SECONDS *
+        100;
+
+      document.getElementById(
+        "activeZone"
+      ).style.width =
+        activeZonePercent + "%";
+    }
+
+    document.getElementById(
+      "enableSound"
+    ).addEventListener("click", () => {
+      enableAudio();
+    });
+
+    document.getElementById(
+      "muteSound"
+    ).addEventListener("click", event => {
+      soundMuted = !soundMuted;
+
+      event.currentTarget.textContent =
+        soundMuted
+          ? "Unmute sound"
+          : "Mute sound";
+    });
+
+    document.getElementById(
+      "testStart"
+    ).addEventListener("click", () => {
+      enableAudio();
+      playStartSound();
+    });
+    updatePage();
+    setInterval(updatePage, 250);
+  </script>
+</body>
+</html>
