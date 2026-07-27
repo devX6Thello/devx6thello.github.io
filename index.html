@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>reed timer</title>
+  <title>Reed Timer</title>
   <style>
     * {
       box-sizing: border-box;
@@ -176,8 +176,13 @@
 
     <div class="content-row">
       <div class="main-content">
-        <div class="countdown" id="countdown">0h 00m 00s</div>
-        <div class="status" id="status"><span class="dot"></span><span id="statusText">Waiting</span></div>
+        <div class="countdown" id="countdown">00h 00m 00s</div>
+
+        <div class="status" id="status">
+          <span class="dot"></span>
+          <span id="statusText">Waiting</span>
+        </div>
+
         <div class="window-info" id="windowInfo">Loading...</div>
         <div class="local-info" id="estTime">Current time: --:--:--</div>
       </div>
@@ -221,8 +226,8 @@
     }
 
     function timeToMinutes(time) {
-      const parts = time.split(":");
-      return Number(parts[0]) * 60 + Number(parts[1]);
+      const [hour, minute] = time.split(":").map(Number);
+      return hour * 60 + minute;
     }
 
     function formatDuration(milliseconds) {
@@ -230,7 +235,8 @@
       const hours = Math.floor(totalSeconds / 3600);
       const minutes = Math.floor((totalSeconds % 3600) / 60);
       const seconds = totalSeconds % 60;
-      return pad(hours) + "h " + pad(minutes) + "m " + pad(seconds) + "s";
+
+      return `${pad(hours)}h ${pad(minutes)}m ${pad(seconds)}s`;
     }
 
     function getZoneParts(date) {
@@ -238,7 +244,9 @@
       const values = {};
 
       for (const part of parts) {
-        if (part.type !== "literal") values[part.type] = part.value;
+        if (part.type !== "literal") {
+          values[part.type] = part.value;
+        }
       }
 
       return {
@@ -255,6 +263,7 @@
 
     function getTimeZoneOffsetMs(date) {
       const parts = getZoneParts(date);
+
       const representedAsUtc = Date.UTC(
         parts.year,
         parts.month - 1,
@@ -263,6 +272,7 @@
         parts.minute,
         parts.second
       );
+
       return representedAsUtc - date.getTime();
     }
 
@@ -281,29 +291,52 @@
       const targetDay = baseDate.getUTCDate();
       const hour = Math.floor(minuteOfDay / 60);
       const minute = minuteOfDay % 60;
-      const wallClockAsUtc = Date.UTC(targetYear, targetMonth, targetDay, hour, minute, 0, 0);
+
+      const wallClockAsUtc = Date.UTC(
+        targetYear,
+        targetMonth,
+        targetDay,
+        hour,
+        minute,
+        0,
+        0
+      );
 
       let guess = new Date(wallClockAsUtc);
+
       for (let i = 0; i < 3; i++) {
-        guess = new Date(wallClockAsUtc - getTimeZoneOffsetMs(guess));
+        guess = new Date(
+          wallClockAsUtc - getTimeZoneOffsetMs(guess)
+        );
       }
 
       return guess.getTime();
     }
 
-    function formatLocalTime(ms) {
+    function formatLocalTime(milliseconds) {
       return new Intl.DateTimeFormat(undefined, {
         hour: "2-digit",
         minute: "2-digit"
-      }).format(new Date(ms));
+      }).format(new Date(milliseconds));
     }
 
     function getLocalWindowLabel(win, zoneNow, dayOffset = 0) {
       const startMinutes = timeToMinutes(win.start);
       const endMinutes = timeToMinutes(win.end);
-      const startMs = zonedTimeToMilliseconds(zoneNow, startMinutes, dayOffset);
-      const endMs = zonedTimeToMilliseconds(zoneNow, endMinutes, dayOffset);
-      return formatLocalTime(startMs) + " - " + formatLocalTime(endMs);
+
+      const startMs = zonedTimeToMilliseconds(
+        zoneNow,
+        startMinutes,
+        dayOffset
+      );
+
+      const endMs = zonedTimeToMilliseconds(
+        zoneNow,
+        endMinutes,
+        dayOffset
+      );
+
+      return `${formatLocalTime(startMs)} - ${formatLocalTime(endMs)}`;
     }
 
     function renderSchedule(activeIndex, zoneNow) {
@@ -312,7 +345,13 @@
       for (let i = 0; i < WINDOWS.length; i++) {
         const activeClass = i === activeIndex ? " current" : "";
         const localInterval = getLocalWindowLabel(WINDOWS[i], zoneNow);
-        html += '<div class="slot' + activeClass + '"><div class="slot-label">' + WINDOWS[i].label + '</div><div class="slot-time">' + localInterval + '</div></div>';
+
+        html += `
+          <div class="slot${activeClass}">
+            <div class="slot-label">${WINDOWS[i].label}</div>
+            <div class="slot-time">${localInterval}</div>
+          </div>
+        `;
       }
 
       schedule.innerHTML = html;
@@ -331,20 +370,31 @@
         const startMinutes = timeToMinutes(WINDOWS[i].start);
         const endMinutes = timeToMinutes(WINDOWS[i].end);
 
-        if (nowMinutes >= startMinutes && nowMinutes < endMinutes) {
+        if (
+          nowMinutes >= startMinutes &&
+          nowMinutes < endMinutes
+        ) {
           activeIndex = i;
-          targetMs = zonedTimeToMilliseconds(zoneNow, endMinutes, 0);
+          targetMs = zonedTimeToMilliseconds(
+            zoneNow,
+            endMinutes,
+            0
+          );
           break;
         }
       }
 
       if (activeIndex >= 0) {
         const current = WINDOWS[activeIndex];
+
         card.className = "timer-card active";
         label.textContent = "Time until this window ends";
         countdown.textContent = formatDuration(targetMs - nowMs);
         statusText.textContent = "Active";
-        windowInfo.textContent = "Current window: " + getLocalWindowLabel(current, zoneNow);
+        windowInfo.textContent =
+          "Current window: " +
+          getLocalWindowLabel(current, zoneNow);
+
         renderSchedule(activeIndex, zoneNow);
       } else {
         let nextIndex = 0;
@@ -362,18 +412,27 @@
 
         const next = WINDOWS[nextIndex];
         const nextStartMinutes = timeToMinutes(next.start);
-        targetMs = zonedTimeToMilliseconds(zoneNow, nextStartMinutes, dayOffset);
+
+        targetMs = zonedTimeToMilliseconds(
+          zoneNow,
+          nextStartMinutes,
+          dayOffset
+        );
 
         card.className = "timer-card waiting";
         label.textContent = "The next blimp arrives in...";
         countdown.textContent = formatDuration(targetMs - nowMs);
         statusText.textContent = "Waiting";
-        windowInfo.textContent = "Next window: " + getLocalWindowLabel(next, zoneNow, dayOffset);
+        windowInfo.textContent =
+          "Next window: " +
+          getLocalWindowLabel(next, zoneNow, dayOffset);
+
         renderSchedule(nextIndex, zoneNow);
       }
 
-      estTime.textContent = "Current Time +
-        pad(zoneNow.hour) + ":" + pad(zoneNow.minute) + ":" + pad(zoneNow.second);
+      estTime.textContent =
+        `Current Time (${zoneNow.timeZoneName}): ` +
+        `${pad(zoneNow.hour)}:${pad(zoneNow.minute)}:${pad(zoneNow.second)}`;
     }
 
     updateTimer();
